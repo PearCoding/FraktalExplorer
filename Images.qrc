@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/SplashScreen">
+        <file>images/SplashScreen.png</file>
+    </qresource>
+    <qresource prefix="/Logo">
+        <file>images/Logo.png</file>
+    </qresource>
+    <qresource prefix="/Icons">
+        <file>images/icons/Stop.png</file>
+        <file>images/icons/SavePicture.png</file>
+        <file>images/icons/Close.png</file>
+        <file>images/icons/Fullscreen.png</file>
+        <file>images/icons/Note.png</file>
+        <file>images/checked.png</file>
+        <file>images/down.png</file>
+        <file>images/point.png</file>
+        <file>images/up.png</file>
+    </qresource>
+</RCC>

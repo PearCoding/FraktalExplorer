@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FraktalExplorerXML version="0.1">
+ <Fraktal name="Mandelbrot-Menge" isJuliaSet="1" isDoubleInput="0" isPlugin="1" isLSystem="0" pluginPath="${CMAKE_INSTALL_PREFIX}/plugins/fe_mandelbrot_plugin.dll">(a+b*%i)^2+(c+d*%i)
+ </Fraktal>
+ <Fraktal forwardFunctions="R,L," name="Gosper-Kurve" defaultLength="50" penColor="#ffff00" defaultDelta="60" isPlugin="0" isLSystem="1">R
+R=R+L++L-R--RR-L+;
+L=-R+LL++L+R--R-L;
+ </Fraktal>
+ <Fraktal name="Double Head-Menge" isJuliaSet="0" isDoubleInput="0" isPlugin="1" isLSystem="0" pluginPath="${CMAKE_INSTALL_PREFIX}/plugins/fe_doublehead_plugin.dll">(a+b*%i)^3+(c+d*%i)</Fraktal>
+ <Fraktal name="Euler Pacman" isJuliaSet="0" isDoubleInput="0" isPlugin="1" isLSystem="0" pluginPath="${CMAKE_INSTALL_PREFIX}/plugins/fe_eulerpacman_plugin.dll"></Fraktal>
+ <Fraktal name="X Hole" isJuliaSet="0" isDoubleInput="0" isPlugin="1" isLSystem="0" pluginPath="${CMAKE_INSTALL_PREFIX}/plugins/fe_xhole_plugin.dll"></Fraktal>
+ <Fraktal name="Block Eyes" isJuliaSet="0" isDoubleInput="0" isPlugin="1" isLSystem="0" pluginPath="${CMAKE_INSTALL_PREFIX}/plugins/fe_blockeyes_plugin.dll"></Fraktal>
+ <Fraktal name="Bird" isJuliaSet="0" isDoubleInput="0" isPlugin="1" isLSystem="0" pluginPath="${CMAKE_INSTALL_PREFIX}/plugins/fe_bird_plugin.dll"></Fraktal>
+ <Fraktal name="Bell" isJuliaSet="0" isDoubleInput="0" isPlugin="1" isLSystem="0" pluginPath="${CMAKE_INSTALL_PREFIX}/plugins/fe_bell_plugin.dll"></Fraktal>
+ <Fraktal forwardFunctions="R,L," name="Drachenkurve" defaultLength="50" penColor="#ffffff" defaultDelta="45" isPlugin="0" isLSystem="1">L
+R=+R--L+;
+L=-R++L-;</Fraktal>
+ <Fraktal forwardFunctions="" name="Hilbert-Kurve" defaultLength="50" penColor="#ff0000" defaultDelta="90" isPlugin="0" isLSystem="1">X
+X=-YF+XFX+FY-;
+Y=+XF-YFY-FX+;</Fraktal>
+ <Fraktal forwardFunctions="" name="Koch-Flocke" defaultLength="50" penColor="#5500ff" defaultDelta="60" isPlugin="0" isLSystem="1">F--F--F
+F=F+F--F+F;</Fraktal>
+ <Fraktal forwardFunctions="" name="Peano-Kurve" defaultLength="50" penColor="#00aa00" defaultDelta="90" isPlugin="0" isLSystem="1">X
+X=XFYFX+F+YFXFY-F-XFYFX;
+Y=YFXFY-F-XFYFX+F+YFXFY;</Fraktal>
+ <Fraktal forwardFunctions="" name="Peano-Kurve 2" defaultLength="50" penColor="#ffaaff" defaultDelta="90" isPlugin="0" isLSystem="1">F
+F=F-F+F+F+F-F-F-F+F;</Fraktal>
+ <Fraktal forwardFunctions="" name="Penta Plexity" defaultLength="50" penColor="#aa00ff" defaultDelta="36" isPlugin="0" isLSystem="1">F++F++F++F++F
+F=F++F++F|F-F++F;</Fraktal>
+ <Fraktal forwardFunctions="R,L," name="Pfeilspitze" defaultLength="50" penColor="#0055ff" defaultDelta="60" isPlugin="0" isLSystem="1">R
+R=-L+R+L-;
+L=+R-L-R+;</Fraktal>
+ <Fraktal forwardFunctions="" name="Sierpinski-Dreieck" defaultLength="5" penColor="#55aaff" defaultDelta="60" isPlugin="0" isLSystem="1">FXF--FF--FF
+X=--FXF++FXF++FXF--;
+F=FF;</Fraktal>
+ <Fraktal forwardFunctions="" name="Sierpinski-Dreieck 2" defaultLength="50" penColor="#ff5500" defaultDelta="60" isPlugin="0" isLSystem="1">F--F--F
+F=F--F--F--..;
+.=..;</Fraktal>
+ <Fraktal forwardFunctions="" name="Sierpinski-Teppich" defaultLength="50" penColor="#00ffff" defaultDelta="90" isPlugin="0" isLSystem="1">F
+F=F+F-F-FF-F-F-.F;
+.=...;</Fraktal>
+ <Fraktal forwardFunctions="" name="Lévy-C-Kurve" defaultLength="50" penColor="#aa55ff" defaultDelta="45" isPlugin="0" isLSystem="1">F
+F=+F--F+;</Fraktal>
+</FraktalExplorerXML>
